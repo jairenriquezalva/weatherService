@@ -1,4 +1,4 @@
-package com.jair.weather.externalServices;
+package com.jair.weather.domain.ports.dtos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

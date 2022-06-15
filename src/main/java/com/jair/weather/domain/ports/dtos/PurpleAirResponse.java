@@ -1,4 +1,4 @@
-package com.jair.weather.externalServices;
+package com.jair.weather.domain.ports.dtos;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.jair.weather.rest;
+package com.jair.weather.infraestructure.rest.schemas;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -8,12 +8,12 @@ public class WeatherResponse {
     @JsonProperty("weather")
     String weatherDescription;
     @JsonProperty("temp")
-    String temperature;
-    String wind;
-    String humidity;
+    Integer temperature;
+    Integer wind;
+    Integer humidity;
     String ppm;
     @JsonProperty("max-temp")
-    String maxTemperature;
+    Integer maxTemperature;
     @JsonProperty("min-temp")
-    String minTemperature;
+    Integer minTemperature;
 }

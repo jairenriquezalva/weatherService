@@ -1,4 +1,4 @@
-package com.jair.weather.externalServices;
+package com.jair.weather.domain.ports.dtos;
 
 import lombok.Data;
 
@@ -9,5 +9,4 @@ public class GoWeatherResponse {
     String temperature;
     String wind;
     String description;
-    List<GoWeatherForecastEntry> forecast;
 }
